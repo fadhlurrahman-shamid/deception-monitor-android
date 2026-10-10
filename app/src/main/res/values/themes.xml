@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Takahashi Legend Care — consistent branded light theme (plum / purple) -->
+    <style name="Base.Theme.AmanahStaffApp" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryDark">@color/brand_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/brand_primary_light</item>
+        <item name="colorOnPrimaryContainer">@color/brand_primary_dark</item>
+        <item name="colorSecondary">@color/brand_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/bg_page</item>
+        <item name="colorSurface">@color/card_bg</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/brand_primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.AmanahStaffApp" parent="Base.Theme.AmanahStaffApp" />
+
+    <!-- Toolbar style used across screens -->
+    <style name="AmanahToolbar" parent="Widget.Material3.Toolbar.Surface">
+        <item name="android:background">@color/brand_primary</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/brand_on_primary_muted</item>
+        <!-- Tint the nav + overflow (Log Out) icons white so they are visible on
+             the dark brand_primary toolbar. Without this, the Material3 "Surface"
+             toolbar paints dark-on-dark icons that look like there is no menu. -->
+        <item name="android:theme">@style/ThemeOverlay.AmanahToolbar</item>
+    </style>
+
+    <!-- Theme overlay applied to the toolbar so its control icons are white. -->
+    <style name="ThemeOverlay.AmanahToolbar" parent="ThemeOverlay.Material3.Toolbar.Surface">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorOnSurfaceVariant">@color/white</item>
+    </style>
+
+    <!-- Circular clip for the login logo (ShapeableImageView). -->
+    <style name="CircleImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

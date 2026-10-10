@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    AppBarLayout with fitsSystemWindows=true so the app bar paints the brand
+    colour behind the system status bar and pushes the toolbar/title BELOW the
+    status bar clock, battery and signal icons (required because targetSdk 36
+    enforces edge-to-edge drawing).
+-->
+<com.google.android.material.appbar.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/brand_primary"
+    android:fitsSystemWindows="true"
+    app:elevation="4dp"
+    app:liftOnScroll="false">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        style="@style/AmanahToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:contentInsetStartWithNavigation="8dp"
+        app:titleMarginStart="12dp">
+
+        <!-- Larger, high-contrast logo (white circle backing) so the brand mark
+             is clearly visible on every screen's app bar. -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/toolbar_logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/bg_logo_white_circle"
+            android:padding="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/app_name"
+            app:shapeAppearanceOverlay="@style/CircleImage" />
+    </com.google.android.material.appbar.MaterialToolbar>
+</com.google.android.material.appbar.AppBarLayout>

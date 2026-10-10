@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Takahashi Legend Care</string>
+    <string name="portal_name">Staff Portal</string>
+    <string name="company_full">Takahashi Legend Care Sdn. Bhd.</string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="action_login">Log In</string>
+    <string name="action_logout">Log Out</string>
+    <string name="action_ok">OK</string>
+
+    <string name="login_footer">© 2026 Takahashi Legend Care Sdn. Bhd.\nAuthorised staff access only.</string>
+    <string name="login_error">Invalid username or password.</string>
+    <string name="login_empty">Please enter your username and password.</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="forgot_password_message">Contact the IT Helpdesk (ext. 118) to reset your password.</string>
+
+    <string name="nav_open_menu">Open menu</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_schedule">My Schedule</string>
+    <string name="nav_patients">My Patients</string>
+    <string name="nav_handover">Handover Notes</string>
+    <string name="nav_tasks">Today\'s Tasks</string>
+    <string name="nav_documents">Documents</string>
+    <string name="nav_announcements">Announcements</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_profile">My Profile</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="home_shift_heading">TODAY\'S SHIFT</string>
+    <string name="tile_patients">Patients</string>
+    <string name="tile_tasks">Tasks left</string>
+    <string name="tile_handover">Handover new</string>
+
+    <string name="profile_hr_note">Personal details are managed by HR.</string>
+
+    <string name="settings_account">Account</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_summary">Shift reminders and handover alerts</string>
+    <string name="settings_shift_reminders">Shift reminders</string>
+    <string name="settings_handover_alerts">Handover alerts</string>
+    <string name="settings_notifications_note">These settings are saved on this phone only.</string>
+    <string name="settings_help">Help &amp; Support</string>
+    <string name="settings_help_contact">IT Helpdesk ext. 118</string>
+    <string name="settings_help_note">For password resets and problems with this app.</string>
+    <string name="settings_privacy">Privacy Notice</string>
+    <string name="settings_privacy_summary">Personal Data Protection Act 2010</string>
+    <string name="settings_privacy_body">Takahashi Legend Care handles staff and resident personal data in line with the Personal Data Protection Act 2010 (PDPA).\n\nWhen this app is used outside the TLC-Staff Wi-Fi, personal data is masked: names are partially hidden and room numbers are not shown. Full details are shown only when connected to the TLC-Staff Wi-Fi at the care home.</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+
+    <string name="hint_current_password">Current password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="hint_confirm_password">Confirm new password</string>
+    <string name="action_change_password">Change Password</string>
+    <string name="password_empty">Please fill in all fields.</string>
+    <string name="password_mismatch">New passwords do not match.</string>
+    <string name="password_weak">Use at least 8 characters with letters and numbers.</string>
+    <string name="password_same">New password must be different from the current password.</string>
+    <string name="password_unavailable_title">Not available on this network.</string>
+    <string name="password_unavailable_body">Password changes are only allowed when connected to the TLC-Staff Wi-Fi at the care home.</string>
+
+    <string name="privacy_note">You are not connected to the TLC-Staff Wi-Fi. Patient names are partially hidden. Full names are shown when connected at the care home.</string>
+</resources>

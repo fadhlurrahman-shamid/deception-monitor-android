@@ -1,0 +1,57 @@
+# Gradle / build output
+.gradle/
+build/
+/build/
+/app/build/
+.externalNativeBuild/
+.cxx/
+/captures/
+captures/
+
+# Local machine configuration (SDK path)
+local.properties
+
+# Android Studio / IntelliJ: user-specific workspace, caches and device state
+*.iml
+/.idea/workspace.xml
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/deviceManager.xml
+/.idea/shelf/
+/.idea/tasks.xml
+/.idea/usage.statistics.xml
+/.idea/dictionaries/
+
+# Build artifacts and signing keys
+*.apk
+*.aab
+*.ap_
+*.dex
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# Logs
+*.log
+
+# Local working notes (only the README is published)
+*.md
+!README.md
+*_output.txt
+
+# Decoy data reference notes (not app code)
+android_data.txt
+
+# OS files
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*~

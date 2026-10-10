@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Toolbar bell with an unread-count badge, used as the action view of
+     action_notifications in menu_main.xml. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:clickable="true"
+    android:focusable="true"
+    android:contentDescription="@string/nav_notifications">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_bell" />
+
+    <TextView
+        android:id="@+id/text_bell_count"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/bg_badge"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+</FrameLayout>
